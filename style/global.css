@@ -24,3 +24,30 @@ body {
     color: var(--text-color-secondary);
     background-color: var(--background-color);
 }
+
+a {
+    text-decoration: none;
+        /* remove o underline de hyperlinks. usamos para a barra de navegação (nav) */
+    color: inherit;
+        /* o navegador deixa em azul hyperlinks por padrão. este atributo faz com que use as cores herdadas do objeto pai (body) */    
+}
+
+a:hover {
+    /* hover para quando você mantem o mouse "sobre". */
+    color: var(--brand_color);
+        /* definindo a cor que ficará quando passar o mouse sobre */
+    text-decoration: underline;
+        /* aplica o underline para quando passar o mouse em cima */
+}
+
+.container {
+    padding-inline: 32px;
+    max-width: 1280px;
+        /* quando feito o zoom out da tela, não será afetado mais que 1280px */
+    margin-inline: auto;
+        /* quando feito o zoom out da tela, manterá as margens centralizadas */
+}
+
+.bg-surface-color {
+    background-color: var(--surface-color);
+}
