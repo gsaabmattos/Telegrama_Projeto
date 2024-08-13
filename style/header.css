@@ -1,0 +1,21 @@
+header {
+    padding-block: 32px;
+}
+
+#profile {
+    display: flex;
+        /* coloca uma informação ao lado da outra */
+    gap: 32px;
+        /* define o espaço entre uma linha e outra */
+}
+
+#profile > div {
+        /* pega a primeira dix após "profile" */
+    max-width: 384px;
+        /* define limite maximo da div */
+
+}
+
+#profile h1 {
+    font: var();
+}

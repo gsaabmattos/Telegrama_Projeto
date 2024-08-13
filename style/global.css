@@ -9,7 +9,7 @@
     --background-color: #FFFFFF;
     --surface-color: #F5F5F5;
     --skeleton-color: #D9D9D9;
-    --shape-transparency: hsla(0, 0%, 100%, 0.56);
+    --shape-transparency: #ffffff8f;
     --text-color-primary: #313131;
     --text-color-secondary: #6C6C6C;
 
@@ -17,7 +17,7 @@
     --font-lg:  32px/125% bold var(--font-family);
     --font-rg: 16px/1.5 var(--font-family);
     --font-md: 14px/170% var(--font-family);
-    --font-sm: 12px/170% var(--font-md);z
+    --font-sm: 12px/170% var(--font-md);
 }
 
 body {
