@@ -13,9 +13,14 @@ header {
         /* pega a primeira dix após "profile" */
     max-width: 384px;
         /* define limite maximo da div */
-
 }
 
 #profile h1 {
-    font: var();
+    font: var(--text-lg);
+    color: var(--text-color-primary);
+    margin-bottom: 8px;
+}
+
+#profile p {
+    font: var(--text-md);
 }
