@@ -1,0 +1,12 @@
+footer {
+    display: flex;
+    padding-block: 24px;
+    gap: 24px
+
+}
+
+footer span:nth-child(1) {
+    /* span:nth-child() conta o numero de span em diante que receberá as alterações (o primeiro é o "O". Como queremos jogar o Termos de uso em diante para a direita, então usamos "1" */
+    margin-right: auto;
+
+}
