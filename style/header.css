@@ -14,6 +14,7 @@ header .container {
         /* coloca uma informação ao lado da outra */
     gap: 32px;
         /* define o espaço entre uma linha e outra */
+    padding-block: 32px;
 }
 
 #profile > div {
@@ -28,6 +29,12 @@ header .container {
     margin-bottom: 8px;
 }
 
+#profile img::after {
+    width: 176px;
+    height: 176px;
+    object-fit: cover;
+}
+
 #profile p {
     font: var(--font-md);
     line-height: 170%;
@@ -40,6 +47,7 @@ header .container {
     flex-direction: column;
     gap: 16px;
     width: 280px;
+    padding-block: 68px;
 }
 
 #info li {
