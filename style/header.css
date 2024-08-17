@@ -1,5 +1,12 @@
+
 header {
     padding-block: 32px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+        /* define o espaço entre os id 'profile' e 'info' */
 }
 
 #profile {
@@ -16,11 +23,27 @@ header {
 }
 
 #profile h1 {
-    font: var(--text-lg);
+    font: var(--font-lg);
     color: var(--text-color-primary);
     margin-bottom: 8px;
 }
 
 #profile p {
-    font: var(--text-md);
+    font: var(--font-md);
+    line-height: 170%;
+    align-items: center;
+}
+
+#info {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 280px;
+}
+
+#info li {
+    display: flex;
+    align-items: center ;
+    gap: 16px;
 }

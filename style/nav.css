@@ -19,8 +19,13 @@ nav ul {
 }
 
 nav ul li:last-child img {
+    /* onde "li:last-child" é utilizado para pegar o ultimo "li" que tiver */
     width: 40px;
     height: 40px;
+    object-fit: cover;
+        /* preenche todo o espaço com a imagem */
+    border-radius: 50%;
+        /* coloca arredondamento na imagem, caso a imagem já não seja redonda */
 }
 
 nav a {

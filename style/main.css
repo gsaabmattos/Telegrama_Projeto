@@ -1,0 +1,15 @@
+main div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-block: 24px;
+    padding-inline: 32px;
+    margin-inline: auto;
+        /* altera apenas as manges laterais (esquerda/direita) */
+    max-width: 1280px;
+}
+
+main div img {
+    width: 286px;
+    height: 286px;
+}
